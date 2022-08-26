@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da764ef5c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <h1 class="net">Network</h1>
+        </div>
+        
+        <div class="main2">
+            
+            <div class="profile">
+                <img src="img/user-circle.png" alt="foto usuario">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+
+            </div>
+            <div class="column">
+                <div class="post">
+                    <div class="encabezado">
+                        <div class="nombre">
+                            <h3>Neil M</h3>
+                        </div>
+                        <div class="encabezado-likes">
+                            <div class="numero" id="like1"></div>
+                                <div class="likes-palabra"> Like(s)</div>
+                            <div class="boton-like">
+                                <button onclick="megusta()"><i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="encabezado">
+                        <div class="nombre">
+                            <h3>Nichole K</h3>
+                        </div>
+                        <div class="encabezado-likes">
+                            <div class="likes">
+                                <div class="numero" id="like2"></div>
+                                <div class="likes-palabra"> Like(s)</div>
+                            </div>
+                            <div class="boton-like">
+                                <button onclick="megusta2()"><i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p>I just finished my <a href="#">next comic</a>, check it out</p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="encabezado">
+                        <div class="nombre">
+                            <h3>Jim R</h3>
+                        </div>
+                        <div class="encabezado-likes">
+                            <div class="numero" id="like3"></div>
+                                <div class="likes-palabra"> Like(s)</div>
+                            <div class="boton-like">
+                                <button onclick="megusta3()"><i class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
